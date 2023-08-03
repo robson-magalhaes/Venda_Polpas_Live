@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.obrigado{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /*margin: 0 50px 0 50px;*/
+  flex-direction: column;
+  background-image: url('../imagens/msgpedido-1.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.banner-info{
+  color: white;
+  /* background-color: rgba(137, 43, 226, 0.541); */
+  height: 400px;
+  padding: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+  margin-right: 20px;
+}
+.btn{
+  text-decoration: none;
+}
+.btn-sucess{
+  width: 100px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  background-color: rgb(63, 9, 211);
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px rgb(0, 4, 212);
+}
+.btn-login:hover{
+  background-color: rgb(63, 9, 211);
+}
+
+
+
+/* @media(max-width:1200px){
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  .obrigado{
+    background-size: cover;
+  }
+  .banner-info{
+    border-radius: 0;
+    margin-bottom: -170px;
+  }
+  .btn-sucess{
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 40px 20px 40px;
+  }
+} */
+@media(max-width:1200px){
+  body{
+    width: 100vw;
+    height: 80vh;
+  }
+  .obrigado{
+    background-size: cover;
+  }
+  .banner-info{
+    border-radius: 0;
+    margin-bottom: -25px;
+  }
+  .btn-sucess{
+    width: 120px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+@media(max-width:950px){
+  body{
+    width: 100vw;
+    height: 80vh;
+  }
+  .obrigado{
+    background-size: cover;
+  }
+  .banner-info{
+    border-radius: 0;
+    margin-bottom: -50px;
+  }
+}
+
+@media(max-width:500px){
+  body{
+    width: 100vw;
+    height: 55vh;
+  }
+  .obrigado{
+    background-size: cover;
+  }
+  .banner-info{
+    border-radius: 0;
+    margin-bottom: 70px;
+  }
+}
